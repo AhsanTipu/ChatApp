@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-free-5.13.0-web/css/all.css">
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-analytics.js"></script>
+    <script>
+        var firebaseConfig = {
+          apiKey: "AIzaSyBvFCramC7-1wX5cp_rA4RxmzbyqKcp160",
+          authDomain: "chatapp-wm11065.firebaseapp.com",
+          databaseURL: "https://chatapp-wm11065.firebaseio.com",
+          projectId: "chatapp-wm11065",
+          storageBucket: "chatapp-wm11065.appspot.com",
+          messagingSenderId: "402838385426",
+          appId: "1:402838385426:web:a14ba7b40ce8fd15b8b9cb",
+          measurementId: "G-KQBECDLP1S"
+        };
+        
+        firebase.initializeApp(firebaseConfig);
+        
+    </script>
+
+    <title>ChatApp</title>
+</head>
+<body style=" background-image: linear-gradient(to left, rgba(34,193,195,100), rgba(248,247,243,100));">
+    <section id="login">
+        <h3 class="heads"><i class="fas fa-comments mx-1"></i> ChatApp</h3>
+
+<div class="main shadow p-3 mb-5 bg-white rounded" >
+    <div class="container ">
+        <h3><i class="fas fa-comment-dots" style="color: lightblue;"></i></h3>
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6">
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your E-Mail here">
+              
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control " id="exampleInputPassword1" placeholder="Enter your Password here">
+              <br>
+              <button type="submit" onclick="signin()" class="btn btn-primary newa" style="height: 40px !important;">Login</button>
+            </div>
+                        
+          </form>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6">
+    <div class="bt">
+            <button type="submit" class="btn btn-warning newa" onclick="signup()" style="background-color: #f57224 !important; color: white !important; height: 45px !important;">Sign-up</button>
+            <br>
+        
+           <small> Or Login with</small>
+           <br>
+           <button class="new"><i class="fab fa-facebook-square"></i>  Facebook</button>
+           <br>
+           <br>
+           <button class="newz"><i class="fas fa-envelope"></i>  E-Mail</button>
+
+</div>
+</div>
+</div>
+    </div>
+</div>
+
+    </section>
+<script src="app..js"></script>
+</body>
+</html>

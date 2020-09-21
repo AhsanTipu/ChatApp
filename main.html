@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-free-5.13.0-web/css/all.css">
+    <title>ChatApp</title>
+   
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-database.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-analytics.js"></script>
+    <script>
+        var firebaseConfig = {
+          apiKey: "AIzaSyBvFCramC7-1wX5cp_rA4RxmzbyqKcp160",
+          authDomain: "chatapp-wm11065.firebaseapp.com",
+          databaseURL: "https://chatapp-wm11065.firebaseio.com",
+          projectId: "chatapp-wm11065",
+          storageBucket: "chatapp-wm11065.appspot.com",
+          messagingSenderId: "402838385426",
+          appId: "1:402838385426:web:a14ba7b40ce8fd15b8b9cb",
+          measurementId: "G-KQBECDLP1S"
+        };
+        
+        firebase.initializeApp(firebaseConfig);
+        
+    </script>
+
+</head>
+<body style=" background-image: linear-gradient(to left, rgba(34,193,195,100), rgba(248,247,243,100)); ">
+    <section id="chats">
+<div class="maincc">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+<div class="inside text-center">
+    <i style="color: white; font-size: 35px;" class="fas fa-sms pt-3 pb-3">ChatApp</i>
+</div>  
+    <div class="inner">
+<div class="area" id='areat'>
+
+</div>  
+<div class="type text-center pt-2">
+
+<input type="text" class="typea mx-2" placeholder="Type your text here" id="mess">
+<button type="button" class="btn btn-primary btm mb-1" onclick="getText()">Send</button>
+</div>
+</div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+    </section>
+
+
+
+
+    <script src="app..js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

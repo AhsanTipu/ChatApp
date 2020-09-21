@@ -12,16 +12,65 @@ body{
     margin:0 auto;
     
 }
+.maina{
+    width: 600px;
+    display: block;
+    margin:0 auto;
+    display: none;
+    
+}
+.btm{
+    height: 45px;
+    width: 75px;
+}
+.type{
+    background-color: #ECECEC;
+    height: 65px;
+    width: 700px !important;
+}
+.typea{
+    height: 48px;
+    width: 500px;
+    border-radius: 12px;
+    color: lightslategrey;
+}
+.maincc{
+    width: 730px;
+    margin: auto;
+    margin-top: 70px;
+    /* border-radius: 60px; */
+   
+}
+.fade-in{
+    animation: fadeIn 2s;
+    animation-timing-function: ease-in-out;
+  
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
 @media only screen and (min-width: 320px) {
     .main {
       width: 282px;    
       margin-top: 105px !important; 
     }
+    .maina {
+        width: 282px;    
+        margin-top: 105px !important; 
+      }
   }
   @media only screen and (min-width: 768px) {
     .main {
       width: 532px;    
     }
+    .maina {
+        width: 532px;    
+      }
   }
   .newa{
       width: 222px !important;
@@ -53,4 +102,28 @@ body{
   }
   .bt{
       padding-top: 35px;
+  }
+  .inside{
+  background-image: linear-gradient(to left, rgba(24,86,87,100), rgba(75,239,240,100));
+  border-radius: 8px;
+
+  }
+  .inner{
+      background-color: white;
+      height: 460px;
+      border-radius: 20px;
+  }
+  .area{
+      /* background-color: violet; */
+      height: 400px;
+      background-image: url("../images/chata");
+  }
+  .type{
+      width: 400px;
+      border-radius: 20px;
+  }
+  .edit{
+    padding-top: 6px;
+    font-family: sans-serif;
+    padding-left: 12px;
   }

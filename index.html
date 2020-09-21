@@ -31,7 +31,7 @@
     <section id="login">
         <h3 class="heads"><i class="fas fa-comments mx-1"></i> ChatApp</h3>
 
-<div class="main shadow p-3 mb-5 bg-white rounded" >
+<div class="main shadow p-3 mb-5 bg-white rounded" id="first" >
     <div class="container ">
         <h3><i class="fas fa-comment-dots" style="color: lightblue;"></i></h3>
 <div class="row">
@@ -46,29 +46,56 @@
               <label for="exampleInputPassword1">Password</label>
               <input type="password" class="form-control " id="exampleInputPassword1" placeholder="Enter your Password here">
               <br>
-              <button type="submit" onclick="signin()" class="btn btn-primary newa" style="height: 40px !important;">Login</button>
+              <button type="submit" onclick="signin()" class="btn btn-primary newa" style="height: 40px !important;"><i class="fas fa-sign-in-alt mx-1"></i> Login</button>
             </div>
                         
           </form>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-6">
     <div class="bt">
-            <button type="submit" class="btn btn-warning newa" onclick="signup()" style="background-color: #f57224 !important; color: white !important; height: 45px !important;">Sign-up</button>
+            <button type="submit"  class="btn btn-warning newa" onclick="newdiv()" style="background-color: #f57224 !important; color: white !important; height: 45px !important;"><i class="fas fa-user-plus mx-1"></i>  Sign-up</button>
             <br>
         
            <small> Or Login with</small>
            <br>
-           <button class="new"><i class="fab fa-facebook-square"></i>  Facebook</button>
+           <button onclick="facebook()" class="new"><i class="fab fa-facebook-square mx-1"></i>  Facebook</button>
            <br>
            <br>
-           <button class="newz"><i class="fas fa-envelope"></i>  E-Mail</button>
+           <button class="newz" onclick="google()"><i class="fab fa-google mx-1" ></i>  Google</button>
 
 </div>
 </div>
 </div>
     </div>
 </div>
-
+<div class="maina shadow p-3 mb-5 bg-white rounded fade-in"  id="newdiva">
+    <div class="container ">
+        <h3><i class="fas fa-comment-dots" style="color: lightblue;"></i></h3>
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12">
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Username</label>
+                <input type="email" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Enter your Username here">
+                
+              </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your E-Mail here">
+              
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control " id="exampleInputPassword1" placeholder="Enter your Password here">
+              <br>
+              <button type="submit" onclick="signup()" class="btn btn-primary newa" style="height: 40px !important;"><i class="fas fa-sign-in-alt mx-1"></i> Submit</button>
+            </div>
+                        
+          </form>
+    </div>
+</div>
+</div>
+</div>
     </section>
 <script src="app..js"></script>
 </body>

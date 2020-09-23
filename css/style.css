@@ -115,7 +115,7 @@ body{
   }
   .area{
       /* background-color: violet; */
-      height: 400px;
+      min-height:400px ;
       background-image: url("../images/chata");
   }
   .type{
@@ -126,4 +126,26 @@ body{
     padding-top: 6px;
     font-family: sans-serif;
     padding-left: 12px;
+  }
+  .wwa{
+    height: 81px;
+    background-color: white;
+    width: 414px;
+    border-radius: 174px;
+    /* padding-top: 1px; */
+    margin-top: 10px;
+  }
+  .bnn{
+    display: block !important;
+    margin-left: auto !important;
+  }
+  .bttk{
+margin-left: 23px;
+  }
+  .bb{
+      font-weight: bold;
+  }
+  .para{
+      text-align: center;
+      font-weight: bold;
   }
